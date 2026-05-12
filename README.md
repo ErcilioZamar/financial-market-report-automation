@@ -52,3 +52,8 @@ O sistema gera:
 ```bash
 pip install yfinance pandas matplotlib mplcyberpunk
 ```
+
+⚠️ Observações
+O uso do yfinance depende da disponibilidade do Yahoo Finance
+Pode haver instabilidade em dados históricos
+O envio de e-mail requer configuração de senha de app no Gmail
