@@ -47,13 +47,22 @@ O sistema gera:
 
 ## ⚙️ Como executar
 
-1. Instalar dependências:
+## 📌 Instalação completa
 
 ```bash
-pip install yfinance pandas matplotlib mplcyberpunk
+git clone URL_DO_REPO
+cd repo
+python -m venv venv
+venv\Scripts\activate  # Windows
+pip install -r requirements.txt
+python main.py
 ```
 
 ⚠️ Observações
 O uso do yfinance depende da disponibilidade do Yahoo Finance
 Pode haver instabilidade em dados históricos
 O envio de e-mail requer configuração de senha de app no Gmail
+
+👨‍💻 Autor
+Desenvolvido por Ercilio Zamar
+Estudante de Análise e Desenvolvimento de Sistemas com foco em automação, dados e desenvolvimento Python.
